@@ -1,4 +1,5 @@
-body{
+body{  
+    
     height: 100%;
     margin: 0;
 }
@@ -9,11 +10,17 @@ body{
 
 h1{
     font-family: minhafonte;
-    text-decoration: overline;
 }
 
-
 div{
+ 
+    box-shadow: -15px 15px 100px #004E64;
+-webkit-box-shadow: 0px 0px 70px #004E64;
+-moz-box-shadow: -15px 15px 100px #004E64;
+
+}
+div{
+
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     background-color: rgba(239, 247, 246, 100);
     position: absolute;
@@ -24,12 +31,14 @@ div{
    padding: 60px;
    border-radius: 25px;
    color:#004E64;
-   box-shadow: -15px 15px 100px #004E64;
--webkit-box-shadow: 0px 0px 70px #004E64;
--moz-box-shadow: -15px 15px 100px #004E64;
-}
+   
 
-input{
+}
+hr{
+    border-color: #004E64;
+    border-radius: 10%;
+}
+#cpf{
     font-family: minhafonte;
     text-align: center;
     padding: 15px;
@@ -38,32 +47,53 @@ input{
     border-radius: 10px 10px;
     font-size: 20px;
 }
-button{
+#senha{
     font-family: minhafonte;
+    text-align: center;
+    padding: 15px;
+    border-color: #004E64;
+    outline: none;
+    border-radius: 10px 10px;
+    font-size: 20px;
+}
+#entrar{
+    font-family: minhafonte;
+    font-weight: bold;
+    font-size: 15px;
     background-color: rgba(0, 78, 100, 100);
     border: none;
-    height: 40px;
+    height: 60px;
     width: 50%;
     border-radius: 10px;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer;
     position: relative;
     float: left;
 }
-button:hover{
-    background-color: deepskyblue;
+#entrar:hover{
+    background-color: #1A7CB2;
 }
 
-h2{
+#criar{
     font-family: minhafonte;
+    font-weight: bold;
     font-size: 15px;
     color:#004E64;
     position: relative;
-    float: right;
+    float: left;
     cursor: pointer;
     text-decoration: underline;
+    width: 40%;
+    margin-top: 7%;
 }
-h2:hover{
-    color:deepskyblue;
+#criar:hover{
+    color:#1A7CB2;
+}
+#ou{
+    font-family: minhafonte;
+    font-size: 15px;
+    position: relative;
+    float: left;
+    width: 10%; 
 }
