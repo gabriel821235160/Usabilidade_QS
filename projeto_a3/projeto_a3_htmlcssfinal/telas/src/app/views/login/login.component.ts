@@ -9,14 +9,31 @@ import { Usuario } from '../../../../../../autenticacao/models/usuario';
 })
 export class LoginComponent implements OnInit {
 
- /* constructor(private HttpClient: HttpClient) { }
-  connectionLogin(){
-    return this.HttpClient.get<Usuario>('http://localhost:7000/')
+
+  cpf=''
+  senha=''
+
+ constructor(private HttpClient: HttpClient) { }
+  
+ 
+ connectionLogin(){
+    return this.HttpClient.post('http://localhost:7000/logar',
+    {cpf: this.cpf, senha: this.senha})
     .pipe(
-      (res) => res,
-      (err) => err
+      (res) => {
+        console.log ("retorno", res)
+        return res
+      },
+      (err) =>{
+        console.log ("erro", err)
+        return err
+      } 
     )
-  }*/
+  }
+  
+  jose(){
+    console.log("estou por aqui")
+  }
 
   ngOnInit(): void {
   }

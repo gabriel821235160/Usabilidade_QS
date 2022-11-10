@@ -6,6 +6,8 @@
     font-family: minhafonte;
     color: #004E64;
     font-size: 50px;
+    position: absolute;
+    padding-left: 10%;
 }
 #subtitulo{
     font-family: minhafonte;
@@ -52,6 +54,7 @@
 }
 #criar:hover{
     background-color: #1A7CB2;
+    color: white;
 }
 #ou{
     font-family: minhafonte;

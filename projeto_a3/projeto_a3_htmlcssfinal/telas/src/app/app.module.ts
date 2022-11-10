@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +17,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { CadastroComponent } from './views/cadastro/cadastro.component';
 import { InicialComponent } from './views/inicial/inicial.component';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +32,7 @@ import { InicialComponent } from './views/inicial/inicial.component';
     BrowserModule,
     AppRoutingModule,
     MatButtonModule,
+    FormsModule,
     BrowserAnimationsModule,
     MatCardModule,
     MatInputModule,
