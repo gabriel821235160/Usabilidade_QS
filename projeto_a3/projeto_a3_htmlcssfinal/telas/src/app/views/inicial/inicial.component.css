@@ -5,34 +5,30 @@
 #titulo{
     font-family: minhafonte;
     color: #004E64;
-    font-size: 450%;
+    font-size: 50px;
     position: absolute;
     padding-left: 10%;
-    padding-top: 7%;
 }
 #subtitulo{
     font-family: minhafonte;
     color:black;
-    font-size: 200%;
-    position: absolute;
-    padding-left: 10%;
-    padding-top: 18%;
-    
+    font-size: 20px;
 
 }
 #Login{
     font-family: minhafonte;
-    font-size: 130%;
+    font-size: 10px;
     background-color: #004E64;
     border: none;
-    height: 4%;
+    height: 40px;
     width: 10%;
     border-radius: 10px;
     color: white;
+    font-size: 20px;
     cursor: pointer;
     position:absolute; 
-    top: 61%;
-    left: 15%;
+    top:50%;
+    left:50%;
     transform: translate(-50%, -50%);
 
 }
@@ -42,17 +38,18 @@
 
 #criar{
     font-family: minhafonte;
-    font-size: 130%;
+    font-size: 4px;
     background-color: white;
     border-color: #004E64;;
-    height: 4%;
+    height: 40px;
     width: 10%;
     border-radius: 10px;
     color: #004E64;
+    font-size: 20px;
     cursor: pointer;
     position:absolute; 
-    top:61%;
-    left:28%;
+    top:50%;
+    left:63%;
     transform: translate(-50%, -50%);
 }
 #criar:hover{
@@ -62,10 +59,10 @@
 #ou{
     font-family: minhafonte;
     color: #004E64;
-    font-size: 130%;
+    font-size: 20px;
     position:absolute; 
-    top: 58%;
-    left: 26%;
+    top:47%;
+    left:61%;
     transform: translate(-50%, -50%);
     width: 10%; 
 }
