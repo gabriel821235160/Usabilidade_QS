@@ -1,6 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { Usuario } from '../../../../../../autenticacao/models/usuario';
 //'src/app/model/medico/medico';
 @Component({
   selector: 'app-login',
