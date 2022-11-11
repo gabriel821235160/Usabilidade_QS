@@ -10,6 +10,9 @@ const Usuario = conexao.define('tb_usuarios', {
         type: Sequelize.BIGINT,
         primaryKey: true
     },
+    dt_nascimento: {
+        type: Sequelize.STRING,
+    },
     crm: {
         type: Sequelize.BIGINT
     },
