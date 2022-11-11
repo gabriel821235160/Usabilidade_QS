@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'minhafonte';   
+    src: url(./Sen/Sen-Regular.ttf);   
+}
+#titulo{
+    font-family: minhafonte;
+    color: #004E64;
+    font-size: 450%;
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 7%;
+}
+#subtitulo{
+    font-family: minhafonte;
+    color:black;
+    font-size: 200%;
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 18%;
+    
+
+}
+#Login{
+    font-family: minhafonte;
+    font-size: 130%;
+    background-color: #004E64;
+    border: none;
+    height: 4%;
+    width: 10%;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    position:absolute; 
+    top: 61%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+
+}
+#Login:hover{
+    background-color: #1A7CB2;
+}
+
+#criar{
+    font-family: minhafonte;
+    font-size: 130%;
+    background-color: white;
+    border-color: #004E64;;
+    height: 4%;
+    width: 10%;
+    border-radius: 10px;
+    color: #004E64;
+    cursor: pointer;
+    position:absolute; 
+    top:61%;
+    left:28%;
+    transform: translate(-50%, -50%);
+}
+#criar:hover{
+    background-color: #1A7CB2;
+    color: white;
+}
+#ou{
+    font-family: minhafonte;
+    color: #004E64;
+    font-size: 130%;
+    position:absolute; 
+    top: 58%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    width: 10%; 
+}
