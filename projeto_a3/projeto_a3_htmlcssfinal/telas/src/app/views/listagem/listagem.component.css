@@ -1,0 +1,284 @@
+@font-face {
+    font-family: 'minhafonte';   
+    src: url(./Sen/Sen-Regular.ttf);   
+}
+
+#card{
+    background-color: #004E64;
+    position: absolute;
+    width: 10%;
+    height:100%;
+}
+
+#inicio{
+    background-color: #004E64;
+    font-family: minhafonte;
+    font-size: 150%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 2%;
+    width: 90%;
+    left: 4%;
+    cursor: pointer;
+}
+#inicio:hover{
+    background-color: white;
+    color: #004E64;
+}
+
+#linha1{
+    position: absolute;
+    width: 99%;
+    top: 7%;
+}
+
+#listagem{
+    background-color: white;
+    font-family: minhafonte;
+    font-size: 150%;
+    color: #004E64;
+    position: absolute;
+    width: 90%;
+    left: 4%;
+    top: 9%;
+    cursor: pointer;
+}
+
+#prontuario{
+    background-color: #004E64;
+    font-family: minhafonte;
+    font-size: 150%;
+    color: white;
+    position: absolute;
+    top: 18%;
+    width: 90%;
+    left: 4%;
+    cursor: pointer;
+}
+#prontuario:hover{
+    background-color: white;
+    color: #004E64;
+}
+
+#linha2{
+    position: absolute;
+    width: 99%;
+    top: 80%;
+
+}
+
+#sair{
+    background-color: #004E64;
+    font-family: minhafonte;
+    font-size: 150%;
+    color: white;
+    position: absolute;
+    top: 85%;
+    width: 90%;
+    left: 4%;
+    cursor: pointer;
+}
+#sair:hover{
+    background-color: white;
+    color: #004E64;
+}
+
+#titulo{
+    font-family: minhafonte;
+    color: #004E64;
+    font-size: 260%;
+    position: absolute;
+    top: 13%;
+    padding-left: 15%;
+}
+#card2{
+    background-color: white;
+    position: absolute;
+    width: 40%;
+    height:40%;
+    left: 15%;
+    top: 24%;
+}
+#botao{
+    background-color: #004E64;
+    font-family: minhafonte;
+    font-size: 150%;
+    color: white;
+    position: absolute;
+    left: 57%;
+    top: 24%;
+    width: 12%;
+    height: 5%;
+    cursor: pointer;
+}
+#botao:hover{
+    background-color: #1A7CB2;
+    color: white;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  } 
+#pac1{
+    background-color: #E7E7E7;
+    color: black;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: minhafonte;
+    text-align: left;
+    border-color: #004E64;
+    border-radius: 10px;
+    position: absolute;
+    left:1%;
+    top: 2%;
+    width: 70%;
+    cursor: pointer;
+}
+#pac1:hover{
+    border-color: #1A7CB2;
+}
+#pac2{
+    background-color: #E7E7E7;
+    color: black;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: minhafonte;
+    text-align: left;
+    border-color: #004E64;
+    border-radius: 10px;
+    position: absolute;
+    left:1%;
+    top: 14%;
+    width: 70%;
+    cursor: pointer;
+}
+#pac2:hover{
+    border-color: #1A7CB2;
+}#pac3{
+    background-color: #E7E7E7;
+    color: black;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: minhafonte;
+    text-align: left;
+    border-color: #004E64;
+    border-radius: 10px;
+    position: absolute;
+    left:1%;
+    top: 26%;
+    width: 70%;
+    cursor: pointer;
+}
+#pac3:hover{
+    border-color: #1A7CB2;
+}
+#pac4{
+    background-color: #E7E7E7;
+    color: black;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: minhafonte;
+    text-align: left;
+    border-color: #004E64;
+    border-radius: 10px;
+    position: absolute;
+    left:1%;
+    top: 38%;
+    width: 70%;
+    cursor: pointer;
+}
+#pac4:hover{
+    border-color: #1A7CB2;
+}#pac5{
+    background-color: #E7E7E7;
+    color: black;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: minhafonte;
+    text-align: left;
+    border-color: #004E64;
+    border-radius: 10px;
+    position: absolute;
+    left:1%;
+    top: 50%;
+    width: 70%;
+    cursor: pointer;
+}
+#pac5:hover{
+    border-color: #1A7CB2;
+}#pac6{
+    background-color: #E7E7E7;
+    color: black;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: minhafonte;
+    text-align: left;
+    border-color: #004E64;
+    border-radius: 10px;
+    position: absolute;
+    left:1%;
+    top: 62%;
+    width: 70%;
+    cursor: pointer;
+}
+#pac6:hover{
+    border-color: #1A7CB2;
+}#pac7{
+    background-color: #E7E7E7;
+    color: black;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: minhafonte;
+    text-align: left;
+    border-color: #004E64;
+    border-radius: 10px;
+    position: absolute;
+    left:1%;
+    top: 74%;
+    width: 70%;
+    cursor: pointer;
+}
+#pac7:hover{
+    border-color: #1A7CB2;
+}#pac8{
+    background-color: #E7E7E7;
+    color: black;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: minhafonte;
+    text-align: left;
+    border-color: #004E64;
+    border-radius: 10px;
+    position: absolute;
+    left:1%;
+    top: 86%;
+    width: 70%;
+    cursor: pointer;
+}
+#pac8:hover{
+    border-color: #1A7CB2;
+}#pac9{
+    background-color: #E7E7E7;
+    color: black;
+    font-size: 110%;
+    font-weight: bold;
+    font-family: minhafonte;
+    text-align: left;
+    border-color: #004E64;
+    border-radius: 10px;
+    position: absolute;
+    left:1%;
+    top: 98%;
+    width: 70%;
+    cursor: pointer;
+}
+#pac9:hover{
+    border-color: #1A7CB2;
+}

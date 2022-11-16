@@ -15,9 +15,16 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatTableModule} from '@angular/material/table';
+
+
+
 import { CadastroComponent } from './views/cadastro/cadastro.component';
 import { InicialComponent } from './views/inicial/inicial.component';
-
+import { ListagemComponent } from './views/listagem/listagem.component';
+import { ProntuarioComponent } from './views/prontuario/prontuario.component';
 
 
 @NgModule({
@@ -26,8 +33,11 @@ import { InicialComponent } from './views/inicial/inicial.component';
     LoginComponent,
     TopoComponent,
     CadastroComponent,
-    InicialComponent
+    InicialComponent,
+    ListagemComponent,
+    ProntuarioComponent,
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -39,8 +49,12 @@ import { InicialComponent } from './views/inicial/inicial.component';
     MatFormFieldModule,
     MatToolbarModule,
     MatIconModule,
-    HttpClientModule
+    HttpClientModule,
+    MatSidenavModule,
+    MatDividerModule,
+    MatTableModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

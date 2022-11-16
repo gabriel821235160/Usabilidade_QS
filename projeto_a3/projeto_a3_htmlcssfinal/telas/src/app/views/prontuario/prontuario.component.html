@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prontuario</title>
+</head>
+<body>
+    <mat-drawer-container id="card1">
+        <button mat-button id="inicio">Início</button>
+        <button mat-button id="listagem">Listagem de <br> Pacientes</button>
+        <button mat-button id="prontuario">Prontuário</button>
+        <hr id="linha1">
+        <hr id="linha2">
+        <button mat-button id="sair">Sair</button>
+  </mat-drawer-container>
+  <h1 id="titulo">Prontuário Eletrônico </h1>
+  <mat-drawer-container id="card2">
+        <hr id="linha3">
+        <h1 id="paciente">Paciente -</h1>
+        <mat-card id="esp1"></mat-card>
+        <button mat-button id="salvar">Salvar Alterações</button>
+        <h1 id="data">Data de Nascimento:</h1>
+        <mat-card id="data2"></mat-card>
+        <h1 id="idade">Idade:</h1>
+        <input id="idade2" type="date">
+        <h1 id="sexo">Sexo:</h1>
+        <input id="sexo2" type="text">
+        <h1 id="altura">Altura:</h1>
+        <input id="altura2" type="text">
+        <h1 id="peso">Peso:</h1>
+        <input id="peso2" type="text">
+        <hr id="linha4">
+        <form id="anamnese">
+            <mat-form-field id="anamnese2" appearance="fill">
+                <mat-label id="anamnese3">Anamnese:</mat-label>
+                <textarea matInput placeholder=""></textarea>
+              </mat-form-field>
+        </form>
+        <form id="hipotese">
+            <mat-form-field id="hipotese2" appearance="fill">
+                <mat-label id="hipotese3">Hipótese Diagnóstica:</mat-label>
+                <textarea matInput placeholder=""></textarea>
+              </mat-form-field>
+        </form>
+        <form id="prescricao">
+            <mat-form-field id="prescricao2" appearance="fill">
+                <mat-label id="prescricao3">Prescrição:</mat-label>
+                <textarea matInput placeholder=""></textarea>
+              </mat-form-field>
+        </form>
+
+
+
+
+    <!--    <h1 id="sexo">Sexo:</h1>
+        <h1 id="altura">Altura:</h1>
+        <h1 id="peso">Peso:</h1>
+        <h1 id="anamnese">Anamnese:</h1>
+        <h1 id="hipotese">Hipótese Diagnóstica:</h1>
+        <h1 id="prescricao">Prescrição:</h1> --> 
+  </mat-drawer-container>
+
+</body>
+</html>

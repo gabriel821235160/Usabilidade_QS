@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'minhafonte';   
+    src: url(./Sen/Sen-Regular.ttf);   
+}
+
+#card1{
+    background-color: #004E64;
+    position: absolute;
+    width: 10%;
+    height:100%;
+}
+
+#inicio{
+    background-color: #004E64;
+    font-family: minhafonte;
+    font-size: 150%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 2%;
+    width: 90%;
+    left: 4%;
+    cursor: pointer;
+}
+#inicio:hover{
+    background-color: white;
+    color: #004E64;
+}
+
+#linha1{
+    position: absolute;
+    width: 99%;
+    top: 7%;
+}
+
+#listagem{
+    background-color: #004E64;
+    font-family: minhafonte;
+    font-size: 150%;
+    color: white;
+    position: absolute;
+    width: 90%;
+    left: 4%;
+    top: 9%;
+    cursor: pointer;
+}
+#listagem:hover{
+    background-color: white;
+    color: #004E64;
+}
+
+#prontuario{
+    background-color: white;
+    font-family: minhafonte;
+    font-size: 150%;
+    color: #004E64;
+    position: absolute;
+    top: 18%;
+    width: 90%;
+    left: 4%;
+    cursor: pointer;
+}
+
+#linha2{
+    position: absolute;
+    width: 99%;
+    top: 80%;
+}
+
+#sair{
+    background-color: #004E64;
+    font-family: minhafonte;
+    font-size: 150%;
+    color: white;
+    position: absolute;
+    top: 85%;
+    width: 90%;
+    left: 4%;
+    cursor: pointer;
+}
+#sair:hover{
+    background-color: white;
+    color: #004E64;
+}
+
+#titulo{
+    font-family: minhafonte;
+    color: #004E64;
+    font-size: 200%;
+    position: absolute;
+    top: 13%;
+    padding-left: 13%;
+}
+
+
+
+
+
+
+
+
+
+#card2{
+    background-color: white;
+    position: absolute;
+    width: 40%;
+    height:70%;
+    left: 13%;
+    top: 20%;
+}
+#paciente{
+    font-family: minhafonte;
+    color: #004E64;
+    font-size: 150%;
+    position: absolute;
+    top: 0%;
+    padding-left: 3%;
+}
+#esp1{
+    background-color: #E7E7E7;
+    font-family: minhafonte;
+    font-size: 110%;
+    color: black;
+    width: 47%;
+    left: 20%;
+    top: 2%;
+}
+#salvar{
+    background-color: #004E64;
+    font-family: minhafonte;
+    font-size: 110%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    width: 25%;
+    height: 7%;
+    cursor: pointer;
+}
+#salvar:hover{
+    background-color: #1A7CB2;
+}
+#linha3{
+    background-color: #1A7CB2;
+    color: #1A7CB2;
+    position: absolute;
+    left: 2%;
+    width: 96%;
+    top: 10%;
+    height: 1%;
+}
+
+
+
+#data{
+    font-family: minhafonte;
+    color: #004E64;
+    font-size: 110%;
+    position: absolute;
+    top: 13%;
+    left: 3%;
+}
+#data2{
+    background-color: #E7E7E7;
+    font-family: minhafonte;
+    font-size: 100%;
+    color: black;
+    width: 15%;
+    position: absolute;
+    left: 27%;
+    top: 14%;
+    
+}
+#idade{
+    font-family: minhafonte;
+    color: #004E64;
+    font-size: 110%;
+    position: absolute;
+    left: 49%;
+    top: 13%;
+}
+#idade2{
+    background-color: #E7E7E7;
+    font-family: minhafonte;
+    font-size: 100%;
+    border-radius: 5px;
+    color: black;
+    width: 18%;
+    height: 4%;
+    position: absolute;
+    left: 57%;
+    top: 14%;
+}
+#sexo{
+    font-family: minhafonte;
+    color: #004E64;
+    font-size: 110%;
+    position: absolute;
+    left: 3%;
+    top: 20%;
+}
+#sexo2{
+    background-color: #E7E7E7;
+    font-family: minhafonte;
+    font-size: 100%;
+    border-radius: 5px;
+    color: black;
+    width: 14%;
+    height: 4%;
+    position: absolute;
+    left: 9%;
+    top: 21%;
+}
+#altura{
+    font-family: minhafonte;
+    color: #004E64;
+    font-size: 110%;
+    position: absolute;
+    left: 27%;
+    top: 20%;
+}
+#altura2{
+    background-color: #E7E7E7;
+    font-family: minhafonte;
+    font-size: 110%;
+    border-radius: 5px;
+    color: black;
+    width: 14%;
+    height: 4%;
+    position: absolute;
+    left: 35%;
+    top: 21%;
+}
+#peso{
+    font-family: minhafonte;
+    color: #004E64;
+    font-size: 110%;
+    position: absolute;
+    left: 54%;
+    top: 20%;
+}
+#peso2{
+    background-color: #E7E7E7;
+    font-family: minhafonte;
+    font-size: 110%;
+    border-radius: 5px;
+    color: black;
+    width: 14%;
+    height: 4%;
+    position: absolute;
+    left: 60%;
+    top: 21%;
+}
+#linha4{
+    background-color: #1A7CB2;
+    color: #1A7CB2;
+    position: absolute;
+    left: 2%;
+    width: 96%;
+    top: 27%;
+    height: 1%;
+}
+
+
+#anamnese{
+    position: absolute;
+    left: 3%;
+    top:33% ;
+    width: 95%;
+    height: 40%;
+  }
+#anamnese2{
+    width: 100%;
+    max-width:100%;
+    min-width: 100%;
+  }
+#anamnese3{
+    font-family: minhafonte;
+    font-size: 110%;
+    color: #004E64;
+    font-weight: bold;
+  }
+
+
+#hipotese{
+    position:absolute;
+    left: 3%;
+    top:48% ;
+    width: 95%;
+  }
+#hipotese2{
+    width: 100%;
+    max-width:100%;
+    min-width: 100%;
+  }
+#hipotese3{
+    font-family: minhafonte;
+    font-size: 110%;
+    color: #004E64;
+    font-weight: bold;
+  }
+
+
+#prescricao{
+    position:absolute;
+    left: 3%;
+    top:63% ;
+    width: 95%;
+  }
+#prescricao2{
+    width: 100%;
+    max-width:100%;
+    min-width: 100%;
+  }
+#prescricao3{
+    font-family: minhafonte;
+    font-size: 110%;
+    color: #004E64;
+    font-weight: bold;
+  }  
