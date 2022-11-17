@@ -7,8 +7,9 @@ import { ProntuarioComponent } from './views/prontuario/prontuario.component';
 import { ListagemComponent } from './views/listagem/listagem.component';
 
 const routes: Routes = [
-  {path: '', component: InicialComponent},
-  {path: 'login', component: LoginComponent},
+
+//  {path: '', component: InicialComponent},
+  {path: '', component: LoginComponent},
   {path: 'cadastro', component: CadastroComponent},
   {path: 'listagem', component:ListagemComponent},
   {path: 'prontuario', component: ProntuarioComponent}

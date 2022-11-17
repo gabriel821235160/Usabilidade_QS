@@ -37,33 +37,3 @@
 #Login:hover{
     background-color: #1A7CB2;
 }
-
-#criar{
-    font-family: minhafonte;
-    font-size: 140%;
-    background-color: white;
-    border-color: #004E64;
-    height: 4%;
-    width: 10%;
-    border-radius: 10px;
-    color: #004E64;
-    cursor: pointer;
-    position:absolute; 
-    top:65%;
-    left: 28%;
-    transform: translate(-50%, -50%);
-}
-#criar:hover{
-    background-color: #1A7CB2;
-    color: white;
-}
-#ou{
-    font-family: minhafonte;
-    color: #004E64;
-    font-size: 20px;
-    position:absolute; 
-    top: 62%;
-    left: 26%;
-    transform: translate(-50%, -50%);
-    width: 10%; 
-}
