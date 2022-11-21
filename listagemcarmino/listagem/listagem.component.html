@@ -1,0 +1,56 @@
+<mat-card>
+  <mat-toolbar color="primary">
+    Bancas marcadas
+  </mat-toolbar>
+  <div *ngIf="bancas$ | async as cursos; else lendo">
+    <mat-table [dataSource]="cursos" class="mat-elevation-z8">
+      <!-- Position Column -->
+      <ng-container matColumnDef="Data">
+        <mat-header-cell *matHeaderCellDef>Data</mat-header-cell>
+        <mat-cell *matCellDef="let banca"> {{banca.bancadata | date:'dd/MM/yyyy'}} </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="Hora">
+        <mat-header-cell *matHeaderCellDef>Hora</mat-header-cell>
+        <mat-cell *matCellDef="let banca"> {{banca.bancahora}} </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="Titulo">
+        <mat-header-cell *matHeaderCellDef> Titulo </mat-header-cell>
+        <mat-cell *matCellDef="let banca"> {{banca.bancatitulo}} </mat-cell>
+      </ng-container>
+      <!-- Name Column -->
+      <ng-container matColumnDef="Tipo">
+        <mat-header-cell *matHeaderCellDef> Mestrado/Doutorado </mat-header-cell>
+        <mat-cell *matCellDef="let banca"> {{banca.bancatiponome}}
+        </mat-cell>
+      </ng-container>
+      <ng-container matColumnDef="Acoes">
+        <mat-header-cell *matHeaderCellDef>
+          <button mat-mini-fab color="accent" aria-label="Incluir" style="margin-right:50px;">
+            <mat-icon (click)="onAdd()">add</mat-icon>
+          </button>
+          <button mat-mini-fab color="primary">
+            <mat-icon (click)="onCancelar()">arrow_back</mat-icon>
+            </button>
+        </mat-header-cell>
+        <mat-cell *matCellDef="let banca">
+          <button mat-mini-fab color="primary"  style="margin-right: 15px;">
+            <mat-icon (click)="onEdit(banca)">edit</mat-icon>
+          </button>
+          <button mat-mini-fab color="primary" style="margin-right: 15px;">
+            <mat-icon >adjust</mat-icon>
+          </button>
+          <button mat-mini-fab color="warn">
+            <mat-icon>cancel</mat-icon>
+          </button>
+        </mat-cell>
+      </ng-container>
+      <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+  </div>
+  <ng-template #lendo>
+    <div class="lendo-spinner">
+      <mat-spinner></mat-spinner>
+    </div>
+  </ng-template>
+</mat-card>
